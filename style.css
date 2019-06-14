@@ -216,6 +216,7 @@ body {
         top: 40px;
         left: -10px;
         background-size: 360px;
+        min-height: 600px;
     }
 
     .container::after {
@@ -379,6 +380,7 @@ body {
         left: 0px;
         background-size: 315px;
         background-image: url("img/left_background_1170.svg");
+        min-height: 700px;
     }
 
     .container::after {
