@@ -118,7 +118,6 @@ body {
 
 .logo {
     display: block;
-    padding-left: 48px;
     font-size: 38px;
     line-height: 52px;
     transform: scaleX(0.9);
@@ -126,6 +125,7 @@ body {
 
 .logo-wrapper {
     position: relative;
+    padding-left: 46px;
 }
 
 .logo-wrapper::before {
@@ -230,9 +230,10 @@ body {
         padding: 29px 146px 0px 224px;
         margin-bottom: 76px;
     }
-
-    .logo {
+    .logo-wrapper {
         padding-left: 36px;
+    }
+    .logo {
         font-size: 29px;
         transform: scaleX(0.9);
     }
@@ -311,8 +312,12 @@ body {
         padding: 30px 48px 0 125px;
         margin-bottom: 76px;
     }
-    .logo {
+
+    .logo-wrapper {
         padding-left: 36px;
+    }
+
+    .logo {
         font-size: 29px;
         transform: scaleX(0.9);
     }
@@ -394,9 +399,10 @@ body {
         padding: 30px 48px 0 125px;
         margin-bottom: 76px;
     }
-
-    .logo {
+    .logo-wrapper {
         padding-left: 36px;
+    }
+    .logo {
         font-size: 29px;
         transform: scaleX(0.9);
     }
@@ -510,10 +516,13 @@ body {
         line-height: 36px;
     }
 
+    .logo-wrapper {
+        padding-left: 55px;
+    }
+
     .logo {
         font-size: 44px;
-        padding-left: 55px;
-        padding-right: 20px;
+        /* padding-right: 20px; */
     }
     
     .logo-wrapper::before {
